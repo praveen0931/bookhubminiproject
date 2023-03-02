@@ -1,0 +1,27 @@
+.footer-container {
+  width: 15%;
+}
+.react-icons-container {
+  display: flex;
+
+  height: 10vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-us-name {
+  left: 47.15%;
+  right: 47.29%;
+  top: 91.41%;
+  bottom: 6.25%;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #3d3c3c;
+  text-align: center;
+}

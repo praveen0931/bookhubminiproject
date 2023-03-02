@@ -1,0 +1,163 @@
+@media screen and (max-width: 767px) {
+  .login-container {
+    background-color: #ffffff;
+    background-size: cover;
+  }
+  .login-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  .ellipse-image {
+    width: 216px;
+    height: 216px;
+    left: 72px;
+    background-color: transparent;
+
+    top: 32px;
+  }
+  .book-hub-image {
+    width: 104px;
+    height: 28px;
+    left: 128px;
+    top: 264px;
+  }
+  .input-heading {
+    height: 19px;
+    left: 0%;
+    right: 69.87%;
+    top: calc(50% - 19px / 2 - 32.5px);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #5a7184;
+  }
+  .input-element {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #ffffff;
+    border: 1px solid #c3cad9;
+    border-radius: 8px;
+    width: 80%;
+    height: 30px;
+  }
+  .login-button {
+    width: 80%;
+    margin-top: 20px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #0284c7;
+    border-radius: 8px;
+    height: 30px;
+  }
+  .ellipse-image-large-screen {
+    display: none;
+  }
+  .book-hub-large-image {
+    display: none;
+  }
+}
+.error-msg {
+  color: red;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 190px;
+}
+@media screen and (min-width: 768px) {
+  .login-container {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+  }
+  .ellipse-image-large-screen {
+    height: 100vh;
+    width: 100%;
+  }
+  .ellipse-image {
+    display: none;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    justify-content: center;
+    margin-left: 60px;
+  }
+  .book-hub-image {
+    display: none;
+  }
+  .book-hub-large-image {
+    height: 60px;
+    width: 200px;
+    margin-bottom: 50px;
+    align-self: center;
+  }
+  .login-button {
+    height: 42px;
+    left: 43.25%;
+    right: 43.14%;
+    top: calc(50% - 22px / 2 - 1px);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    background-color: blue;
+    color: #ffffff;
+    width: 40%;
+    border-width: 0px;
+    border-style: 0px;
+    align-self: center;
+  }
+  .input-heading {
+    height: 19px;
+    left: 0%;
+    right: 69.87%;
+    top: calc(50% - 19px / 2 - 32.5px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 19px;
+    color: #5a7184;
+    margin-left: 190px;
+  }
+  .input-element {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #ffffff;
+    border: 1px solid #c3cad9;
+    border-radius: 8px;
+    width: 40%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    align-self: center;
+  }
+}

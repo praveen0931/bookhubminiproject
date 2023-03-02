@@ -1,0 +1,7 @@
+.counter-container {
+  display: flex;
+  height: 45px;
+  justify-content: space-around;
+  width: 35%;
+  align-items: center;
+}

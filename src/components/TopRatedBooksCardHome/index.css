@@ -1,0 +1,47 @@
+.top-rated-books-list-container {
+  list-style-type: none;
+
+  margin: 10px;
+  border-radius: 5px;
+}
+.cover-pic-image {
+  width: 374px;
+  height: 244px;
+  left: 171px;
+  top: 409px;
+
+  border-radius: 5px;
+}
+.title-heading {
+  left: 19.58%;
+  right: 71.6%;
+  top: 63.38%;
+  bottom: 33.5%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+.author-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
